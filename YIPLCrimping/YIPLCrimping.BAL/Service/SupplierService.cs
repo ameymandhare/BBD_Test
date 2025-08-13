@@ -94,7 +94,6 @@ namespace YIPLCrimping.BAL.Service
             // === Update fields ===
             existing.FirstOrDefault().SupplierName = supplierData.SupplierName;
             existing.FirstOrDefault().SupplierCode = supplierData.SupplierCode;
-            existing.FirstOrDefault().SupplierCode = supplierData.SupplierCode;
 
             existing.FirstOrDefault().ModifiedById = supplierData.ModifiedById;
             existing.FirstOrDefault().ModifiedDate = DateTime.Now;
