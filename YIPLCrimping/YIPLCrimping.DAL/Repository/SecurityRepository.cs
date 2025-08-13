@@ -253,7 +253,7 @@ namespace YIPLCrimping.DAL.Repository
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw;
             }
         }
 

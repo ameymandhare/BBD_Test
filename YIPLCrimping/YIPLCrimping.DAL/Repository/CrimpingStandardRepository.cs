@@ -464,7 +464,7 @@ namespace YIPLCrimping.DAL.Repository
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw;
             }
 
         }
@@ -602,7 +602,7 @@ namespace YIPLCrimping.DAL.Repository
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw;
             }
         }
         /// <summary>
